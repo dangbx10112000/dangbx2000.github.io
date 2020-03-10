@@ -6,7 +6,7 @@ body{
 	font-family: Arial;
 	font-size: 14px;
 	width: 1500px;
-	background: #333;
+	background: #FFFFFF;
 	margin: 0px auto;
 	padding: 0px;
 }
@@ -58,7 +58,6 @@ ul.submenu li{
 ul.submenu li a{
 	display: block;
 	border-top: 1px solid #ccc;
-	border-bottom: 1px solid #ccc;
 	line-height: 40px;
 	text-decoration: none;
 	color: #FFFFFF;
@@ -84,7 +83,6 @@ ul.submenu1 li{
 ul.submenu1 li a{
 	display: block;
 	border-top: 1px solid #ccc;
-	border-bottom: 1px solid #ccc;
 	line-height: 40px;
 	text-decoration: none;
 	color: #FFFFFF;
@@ -110,7 +108,6 @@ ul.submenu2 li{
 ul.submenu2 li a{
 	display: block;
 	border-top: 1px solid #ccc;
-	border-bottom: 1px solid #ccc;
 	line-height: 40px;
 	text-decoration: none;
 	color: #FFFFFF;
@@ -136,7 +133,6 @@ ul.submenu3 li{
 ul.submenu3 li a{
 	display: block;
 	border-top: 1px solid #ccc;
-	border-bottom: 1px solid #ccc;
 	line-height: 40px;
 	text-decoration: none;
 	color: #FFFFFF;
@@ -148,6 +144,13 @@ ul.root > li:hover ul.submenu3 {
 }
 ul.submenu3 li:hover{
 	background-color: #ccc;
+}
+.MENU{
+	width: 1500px;
+	height: 45px;
+	background: #333;
+	margin: 0px auto;
+	padding: 0px;
 }
 .left-content{
 	clear: left;
@@ -189,7 +192,8 @@ ul.submenu3 li:hover{
 	-webkit-transition: ease-in 0.2s;
 }
 a{
-	color: #FFFFFF;
+	color: #333;
+	text-decoration: none;
 }
 .footer img{
 	width: 1500px;
