@@ -1,0 +1,12 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-family: Arial;
+	font-size: 14px;
+	width: 1500px;
+	background: #333;
+	margin: 0px auto;
+	padding: 0px;
+}
